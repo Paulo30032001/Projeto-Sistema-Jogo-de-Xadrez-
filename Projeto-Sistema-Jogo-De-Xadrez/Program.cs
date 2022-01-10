@@ -7,9 +7,9 @@ namespace xadez_Console
     {
         static void Main(string[] args)
         {
-            Posicao posicao = new Posicao(3, 4);
-
-            Console.WriteLine(posicao);
+            // Posicao posicao = new Posicao(3, 4);
+            Tabuleiro tab = new Tabuleiro(8, 8);
+         //   Console.WriteLine(posicao);
 
 
 

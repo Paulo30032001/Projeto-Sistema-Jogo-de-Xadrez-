@@ -1,7 +1,7 @@
 ﻿using System;
 using tabuleiro;
 
-namespace xadez_Console
+namespace xadrez_Console
 {
     class Program
     {
@@ -9,7 +9,9 @@ namespace xadez_Console
         {
             // Posicao posicao = new Posicao(3, 4);
             Tabuleiro tab = new Tabuleiro(8, 8);
-         //   Console.WriteLine(posicao);
+            //   Console.WriteLine(posicao);
+
+            Tela.imprimirTabuleiro(tab);
 
 
 
